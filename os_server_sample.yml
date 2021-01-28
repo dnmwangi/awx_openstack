@@ -1,5 +1,5 @@
 ---
-- name: Testing initial on devzero.edu
+- name: Testing initial on devstack-admin
   hosts: localhost
   
   tasks:
