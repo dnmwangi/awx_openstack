@@ -7,7 +7,7 @@
     os_server:  
        state: present
        auth:
-         auth_url: http://192.168.100.50/identity
+         auth_url: http://192.168.100.50/identity/v3/
          username: admin
          password: secret
          project_name: admin
