@@ -10,11 +10,9 @@
        timeout: 200
        flavor: ds1G
        image: Ubuntu-18.04
-       auto_ip: no
-       network: public
-       security_groups: default
-       meta:
-         os: ubuntu
+       
+       
+       
 
        
 
