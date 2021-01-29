@@ -7,7 +7,7 @@
     os_server:
        state: present
        name: vm1
-       image: e294a710-6e6a-45d3-b9cd-4e61880d10ee
+       image: Ubuntu-18.04
        timeout: 200
        flavor: d2
        
