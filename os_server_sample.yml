@@ -5,7 +5,7 @@
   tasks:
   - name: Create a new instance and attaches to a network and passes metadata to the instance
     os_server:
-       state: present
+       state: absent
        name: vm1
        timeout: 200
        flavor: ds1G
