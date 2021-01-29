@@ -1,0 +1,19 @@
+- name: Create a new instance and attaches to a network and passes metadata to the instance
+  openstack.cloud.server:
+       state: present
+       auth:
+         auth_url: http://192.168.100.50/identity
+         username: admin
+         password: secret
+         project_name: admin
+       name: vm1
+       image: e294a710-6e6a-45d3-b9cd-4e61880d10ee
+       key_name: ansible_key
+       timeout: 200
+       flavor: ds1G
+       nics:
+         - net-id: eaf805d7-d0ef-4c95-9864-d1b7ead9b66d
+         - net-name: another_network
+       meta:
+         hostname: test1
+         group: uge_master
