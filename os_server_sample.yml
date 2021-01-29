@@ -9,10 +9,7 @@
        name: vm1
        timeout: 200
        flavor: ds1G
-       auto_ip: no
-       meta:
-         os: ubuntu
-      
+       
        
        
        
