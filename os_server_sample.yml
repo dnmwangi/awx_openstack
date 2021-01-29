@@ -5,10 +5,16 @@
   tasks:
   - name: Create a new instance and attaches to a network and passes metadata to the instance
     os_server:
-       state: absent
+       state: present
        name: vm1
+       image: Ubuntu-18.04
        timeout: 200
        flavor: ds1G
+       auto_ip: no
+       network: b9231b7f-fe92-422b-ae6d-0160f097bd44
+       security_groups: default
+       meta:
+         os: ubuntu
        
        
        
