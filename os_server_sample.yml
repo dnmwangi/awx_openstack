@@ -10,11 +10,7 @@
        image: e294a710-6e6a-45d3-b9cd-4e61880d10ee
        timeout: 200
        flavor: d2
-       auto_ip: no
-       network: b9231b7f-fe92-422b-ae6d-0160f097bd44
-       security_groups: default
-       meta:
-         os: ubuntu
+       
 
 
   
