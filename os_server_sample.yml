@@ -5,6 +5,9 @@
   tasks:
   - name: Create a new instance and attaches to a network and passes metadata to the instance
     os_server:
+       state: present
+       name: vm1
+       image: e294a710-6e6a-45d3-b9cd-4e61880d10ee
        
 
   
