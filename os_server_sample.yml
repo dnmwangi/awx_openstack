@@ -9,6 +9,7 @@
        name: vm1
        timeout: 200
        flavor: ds1G
+       image: cirros-0.5.1-x86_64-disk
       
        
        
