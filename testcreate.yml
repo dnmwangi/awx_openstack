@@ -4,7 +4,6 @@
  
   tasks:
   - name: Create a new instance and attaches to a network and passes metadata to the instance
-      openstack.cloud.server:
        state: present
        auth:
          auth_url: http://192.168.100.50/identity
