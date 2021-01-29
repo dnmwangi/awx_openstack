@@ -9,7 +9,11 @@
        name: vm1
        timeout: 200
        flavor: ds1G
-       image: cirros-0.5.1-x86_64-disk
+       auto_ip: no
+       network: b9231b7f-fe92-422b-ae6d-0160f097bd44
+       security_groups: default
+       meta:
+         os: ubuntu
       
        
        
